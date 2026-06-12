@@ -1,6 +1,6 @@
-# Code repository for _An Online Data Assimilation Framwork for Reconstructing Paleoclimates in CESM_
+# Code & data repository for _An Online Data Assimilation Framework for Reconstructing Paleoclimates in CESM_
 
-This repository gathers notebooks for the manuscript _An Online Data Assimilation Framwork for Reconstructing Paleoclimates in CESM_.
+This repository gathers the notebooks and corresponding data for the manuscript _An Online Data Assimilation Framework for Reconstructing Paleoclimates in CESM_.
 
 The code is tested with Python 3.13, and the package [`x4c`](https://ncar.github.io/x4c/) is required to perform essential analysis and the corresponding visualization.
 
