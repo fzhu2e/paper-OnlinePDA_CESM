@@ -26,7 +26,3 @@ The code is tested with Python 3.13, and the package [`x4c`](https://ncar.github
     - [`run_pW.Plio_350ppm.restore_ppeDA_R0.01_tau0.05_climo.zsh`](https://github.com/fzhu2e/paper-OnlinePDA_CESM/blob/main/CESM_scripts/run_pW.Plio_350ppm.restore_ppeDA_R0.01_tau0.05_climo.zsh): the script to run the standard restoring (SR) case
     - [`run_pW.Plio_350ppm.restore_ppeDA_R0.01_tau0.05_climo_fixed.zsh`](https://github.com/fzhu2e/paper-OnlinePDA_CESM/blob/main/CESM_scripts/run_pW.Plio_350ppm.restore_ppeDA_R0.01_tau0.05_climo_fixed.zsh): the script to run the fixed-tendency restoring (FR) case
     - [`forcing_pt_interior_fixed.F90`](https://github.com/fzhu2e/paper-OnlinePDA_CESM/blob/main/CESM_scripts/forcing_pt_interior_fixed.F90): the modified iCESM1.3 Fortran source code for the fixed-tendency restoring (FR) case
-
-
-## How to cite this repository
-This repository can be cited with DOI: [10.5281/zenodo.15883769](https://doi.org/10.5281/zenodo.15883769)
