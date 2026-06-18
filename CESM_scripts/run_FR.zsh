@@ -127,10 +127,10 @@ EOF
 cat << EOF >> user_nl_pop
 ! namelists for restoring
 pt_interior_data_type='monthly'
-pt_interior_filename='/glade/work/fengzhu/Projects/paleoWeather_OnlineDA_method/data/restoring_target_ppeDA_R${R}_g16_TEMP_climo_${CO2}_fixed.nc'
+pt_interior_filename='${0:A:h}/restoring_target_ppeDA_R${R}_g16_TEMP_climo_${CO2}_fixed.nc'
 pt_interior_file_fmt='nc'
 pt_interior_variable_restore=.true.
-pt_interior_restore_filename='/glade/work/fengzhu/Projects/paleoWeather_OnlineDA_method/data/restoring_mask_maxLev1_tau0.05_TEMP.nc'
+pt_interior_restore_filename='${0:A:h}/restoring_mask_maxLev1_tau0.05_TEMP.nc'
 pt_interior_restore_file_fmt='nc'
 
 ltavg_ignore_extra_streams = .true.
